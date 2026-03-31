@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+input, textarea {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+
+:root {
+  --background: #FFFFFF;
+  --text: #000000;
+  --border-color:#999999;
+  --button-background: #71C838;
+  --border-error: #FF0000;
+  --text-placeholder: #999999;
+  --hover-color: #cfd6df;
+  --separator-color: #E5E4E4;
+  --checkbox-color-border: #7E7E7E;
+}
+
+
+
+
+
