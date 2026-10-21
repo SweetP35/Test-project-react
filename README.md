@@ -2,7 +2,7 @@
 
 Форма регистрации на Next.js с валидацией полей, выбором города и отправкой данных на собственный API-роут.
 
-🔗 **Демо:** [ссылка](https://sweetp35-registration-form.netlify.app/)
+ 🔗 **Демо:** [sweetp35-registration-form.netlify.app](https://sweetp35-registration-form.netlify.app/)
 
 ![Скриншот](./screenshot1.png)
 
