@@ -1,7 +1,7 @@
 "use client";
 import styles from "./page.module.scss";
 import { useState, useEffect } from "react";
-import FormFiled from "@/components/FormFiled";
+import FormField from "@/components/FormField";
 import Separator from "@/components/Separator";
 import Approved from "@/components/Approved";
 import Button from "@/components/Button";
@@ -194,14 +194,14 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.form}>
           <div className={styles.greeting}>Здравствуйте, <span>{savedName || "Человек"}</span></div>
-          <FormFiled {...form.name} value={form.name.value} updateValue={setNameValue} />
-          <FormFiled {...form.city} control="select" value={form.city.value} updateValue={setCityValue} />
+          <FormField {...form.name} value={form.name.value} updateValue={setNameValue} />
+          <FormField {...form.city} control="select" value={form.city.value} updateValue={setCityValue} />
           <Separator />
-          <FormFiled {...form.password} value={form.password.value} updateValue={setPasswordValue} />
-          <FormFiled {...form.passwordRepeat} value={form.passwordRepeat.value} updateValue={setPasswordRepeatValue} />
+          <FormField {...form.password} value={form.password.value} updateValue={setPasswordValue} />
+          <FormField {...form.passwordRepeat} value={form.passwordRepeat.value} updateValue={setPasswordRepeatValue} />
           <Separator />
-          <FormFiled {...form.phone} value={form.phone.value} updateValue={setPhoneValue} />
-          <FormFiled {...form.email} value={form.email.value} updateValue={setEmailValue} required={subscribed} />
+          <FormField {...form.phone} value={form.phone.value} updateValue={setPhoneValue} />
+          <FormField {...form.email} value={form.email.value} updateValue={setEmailValue} required={subscribed} />
           <Approved subscribed={subscribed} setSubscribed={setSubscribed} />
         </div>
         <Button

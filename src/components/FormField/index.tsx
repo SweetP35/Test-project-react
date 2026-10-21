@@ -20,7 +20,7 @@ interface FormFieldProps {
 }
 
 
-export default function FormFiled({
+export default function FormField({
     label,
     placeholder = "Введите текст",
     required = false,
